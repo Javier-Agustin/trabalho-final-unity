@@ -46,3 +46,4 @@ Devido ao tamanho dos assets, o pacote completo está disponível na seção de 
 
 ## 🎬 Demonstração
 * https://drive.google.com/file/d/1Uc0vuA8oh00CAhk1lVKla68-CUNNCvG8/view?usp=sharing
+* https://docs.google.com/presentation/d/1rDourJ9MhZiFl_BnRi-ii5ImA0KmuylK/edit?usp=sharing&ouid=115202309900171450707&rtpof=true&sd=true
