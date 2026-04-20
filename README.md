@@ -1,2 +1,46 @@
-# trabalho-final-unity
-esse sao todos os codigos usados nas 2 fases do laberinto programados em cs, e tambem deixo o unity package para que voce estraia o projeto e ver o resultado
+# 🌀 Labirinto 3D - Unity Project
+
+![Unity](https://img.shields.io/badge/Unity-2022.3%2B-black?style=for-the-badge&logo=unity)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Finalizado-success?style=for-the-badge)
+
+Este repositório contém o código-fonte e os ativos de um jogo de labirinto desenvolvido na **Unity**. O projeto foca em mecânicas de física, sistemas de progressão por chaves e uma interface de usuário altamente dinâmica utilizando **TextMeshPro**.
+
+## 🚀 Principais Funcionalidades
+
+### 🎮 Gameplay e Mecânicas
+* **Controle de Personagem:** Movimentação de esfera (`BallMovement.cs`, `MoveBall.cs`) com física avançada, suporte a pulo e integração com o **New Input System**.
+* **Sistema de Inventário:** Lógica de coleta de itens (`Key.cs`, `PlayerKeys.cs`) e desbloqueio de passagens condicionais (`Door.cs`).
+* **Gestão de Estado:** Sistema de checkpoint e respawn automático baseado em altura e gatilhos de mudança de andar, gerenciados via `GameManager.cs`.
+* **VFX:** Scripts customizados para animação de shaders e efeito de dissolução de objetos (`Dissolver.cs`).
+
+### 🖥️ UI/UX & TextMeshPro
+O diferencial deste projeto é a manipulação avançada de vértices de texto para efeitos dinâmicos:
+* **Efeitos de Vértices:** Implementação de *Jitter*, *Zoom*, *Shake* e animação de cores via script.
+* **Sistemas de Feedback:** Simulador de digitação de console e controlador de chat funcional.
+* **Ferramentas de Debug:** Contador de FPS e analisadores de performance de texto integrados.
+
+## 🛠️ Tecnologias Utilizadas
+* **Engine:** Unity 2022.3 (LTS)
+* **Linguagem:** C# (Programação Orientada a Objetos e Corotinas)
+* **Renderização:** TextMeshPro & URP (Universal Render Pipeline)
+
+## 📂 Como Utilizar este Repositório
+
+### Para consulta de código:
+Os scripts principais estão organizados na pasta `/Scripts` para visualização rápida da lógica de programação.
+
+### Para rodar o projeto na Unity:
+1.  Baixe o arquivo **`versaofinal5.unitypackage`** na raiz deste repositório.
+2.  No seu projeto Unity, vá em `Assets > Import Package > Custom Package`.
+3.  Selecione o arquivo e importe todos os componentes.
+
+> [!IMPORTANT]
+> **Nota sobre Materiais Rosas (Shader Issue):**
+> Caso os objetos apareçam rosas após a importação, converta os materiais para o seu Render Pipeline:
+> 1. Vá em `Window > Rendering > Render Pipeline Converter`.
+> 2. Selecione `Built-in to URP`.
+> 3. Clique em `Initialize` e depois em `Convert Assets`.
+
+## 🎬 Demonstração
+* https://drive.google.com/file/d/1Uc0vuA8oh00CAhk1lVKla68-CUNNCvG8/view?usp=sharing
