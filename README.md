@@ -15,7 +15,6 @@ Este repositório contém o código-fonte e os ativos de um jogo de labirinto de
 * **VFX:** Scripts customizados para animação de shaders e efeito de dissolução de objetos (`Dissolver.cs`).
 
 ### 🖥️ UI/UX & TextMeshPro
-O diferencial deste projeto é a manipulação avançada de vértices de texto para efeitos dinâmicos:
 * **Efeitos de Vértices:** Implementação de *Jitter*, *Zoom*, *Shake* e animação de cores via script.
 * **Sistemas de Feedback:** Simulador de digitação de console e controlador de chat funcional.
 * **Ferramentas de Debug:** Contador de FPS e analisadores de performance de texto integrados.
@@ -30,10 +29,13 @@ O diferencial deste projeto é a manipulação avançada de vértices de texto p
 ### Para consulta de código:
 Os scripts principais estão organizados na pasta `/Scripts` para visualização rápida da lógica de programação.
 
-### Para rodar o projeto na Unity:
-1.  Baixe o arquivo **`versaofinal5.unitypackage`** na raiz deste repositório.
-2.  No seu projeto Unity, vá em `Assets > Import Package > Custom Package`.
-3.  Selecione o arquivo e importe todos os componentes.
+### Para importar o projeto completo na Unity:
+Devido ao tamanho dos assets, o pacote completo está disponível na seção de **Releases**:
+
+1.  Acesse a aba [**Releases**](https://github.com/Javier-Agustin/trabalho-final-unity/releases) deste repositório.
+2.  Faça o download do arquivo **`versaofinal5.unitypackage`**.
+3.  No seu projeto Unity, vá em `Assets > Import Package > Custom Package`.
+4.  Selecione o arquivo e importe todos os componentes.
 
 > [!IMPORTANT]
 > **Nota sobre Materiais Rosas (Shader Issue):**
